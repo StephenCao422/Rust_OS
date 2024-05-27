@@ -1,0 +1,15 @@
+[package]
+name = "rust_os"
+version = "0.1.0"
+edition = "2021"
+author = ["Stephen Cao <cao48@illinois.edu>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+bootloader = "0.9"
+
